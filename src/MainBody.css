@@ -1,0 +1,56 @@
+.mainBody {
+    display: grid;
+    background: #fff;
+    color: black;
+    padding: 0;
+    margin-top: 50px;
+}
+
+h1 {
+    display: flex;
+    font-size: 3em;
+    font-weight: 700;
+    margin: 20px;
+    padding: 20px;
+}
+
+h2 {
+    display: flex;
+    font-size: 2.3em;
+    font-weight: 700;
+    justify-content: flex-end;
+    margin-right: 200px;
+}
+
+h1, p {
+    color: 000000;
+}
+
+.block {
+    display: grid;
+    margin-top: 30px;
+    width: 70%;
+    justify-content: center;
+    text-align: center;
+}
+
+.intro {
+    display: flex;
+    font-size: 1.6em;
+    font-weight: 300;
+    align-items: baseline;
+    text-align: justify;
+    margin-left: 20px;
+    padding-left: 20px;
+    width: 90%;
+
+}
+
+.quote {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    margin-top: 30px;;
+    margin-left: 20px;
+    padding-left: 20px;
+}
